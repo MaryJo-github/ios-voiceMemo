@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440FE2A32BBE957D00F06CDD /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440FE2A22BBE957D00F06CDD /* MemoViewModel.swift */; };
 		44DA6E002BBA497B004CF70E /* voiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6DFF2BBA497B004CF70E /* voiceMemoApp.swift */; };
 		44DA6E042BBA497D004CF70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA6E032BBA497D004CF70E /* Assets.xcassets */; };
 		44DA6E072BBA497D004CF70E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA6E062BBA497D004CF70E /* Preview Assets.xcassets */; };
@@ -28,9 +29,13 @@
 		44DA6E432BBD21D4004CF70E /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E422BBD21D4004CF70E /* TodoViewModel.swift */; };
 		44DA6E452BBD220A004CF70E /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E442BBD220A004CF70E /* TodoListViewModel.swift */; };
 		44DA6E472BBD2216004CF70E /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E462BBD2216004CF70E /* TodoListView.swift */; };
+		44DA6E492BBD8423004CF70E /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E482BBD8423004CF70E /* Memo.swift */; };
+		44DA6E4B2BBD849E004CF70E /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E4A2BBD849E004CF70E /* MemoListViewModel.swift */; };
+		44DA6E4D2BBD84AB004CF70E /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA6E4C2BBD84AB004CF70E /* MemoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440FE2A22BBE957D00F06CDD /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
 		44DA6DFC2BBA497B004CF70E /* voiceMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DA6DFF2BBA497B004CF70E /* voiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiceMemoApp.swift; sourceTree = "<group>"; };
 		44DA6E032BBA497D004CF70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +58,9 @@
 		44DA6E422BBD21D4004CF70E /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		44DA6E442BBD220A004CF70E /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		44DA6E462BBD2216004CF70E /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		44DA6E482BBD8423004CF70E /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		44DA6E4A2BBD849E004CF70E /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		44DA6E4C2BBD84AB004CF70E /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +223,7 @@
 		44DA6E1F2BBA545F004CF70E /* Memo */ = {
 			isa = PBXGroup;
 			children = (
+				44DA6E482BBD8423004CF70E /* Memo.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -255,6 +264,8 @@
 			isa = PBXGroup;
 			children = (
 				44DA6E332BBC0729004CF70E /* Memo */,
+				44DA6E4C2BBD84AB004CF70E /* MemoListView.swift */,
+				44DA6E4A2BBD849E004CF70E /* MemoListViewModel.swift */,
 			);
 			path = MemoList;
 			sourceTree = "<group>";
@@ -263,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				44DA6E342BBC0735004CF70E /* MemoView.swift */,
+				440FE2A22BBE957D00F06CDD /* MemoViewModel.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -368,10 +380,14 @@
 				44DA6E3D2BBCEED8004CF70E /* CustomNavigationBar.swift in Sources */,
 				44DA6E3F2BBCEF84004CF70E /* NavigationBtnType.swift in Sources */,
 				44DA6E3B2BBCEC34004CF70E /* Date+Extensions.swift in Sources */,
+				44DA6E4D2BBD84AB004CF70E /* MemoListView.swift in Sources */,
+				44DA6E492BBD8423004CF70E /* Memo.swift in Sources */,
 				44DA6E112BBA4A73004CF70E /* AppDelegate.swift in Sources */,
 				44DA6E292BBA569D004CF70E /* OnboardingView.swift in Sources */,
 				44DA6E002BBA497B004CF70E /* voiceMemoApp.swift in Sources */,
+				440FE2A32BBE957D00F06CDD /* MemoViewModel.swift in Sources */,
 				44DA6E472BBD2216004CF70E /* TodoListView.swift in Sources */,
+				44DA6E4B2BBD849E004CF70E /* MemoListViewModel.swift in Sources */,
 				44DA6E1D2BBA5371004CF70E /* Color+Extensions.swift in Sources */,
 				44DA6E392BBC0751004CF70E /* TodoView.swift in Sources */,
 				44DA6E2D2BBC0524004CF70E /* PathType.swift in Sources */,
