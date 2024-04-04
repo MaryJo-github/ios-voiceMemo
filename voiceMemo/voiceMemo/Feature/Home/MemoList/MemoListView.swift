@@ -139,7 +139,7 @@ private struct MemoCellView: View {
     
     fileprivate var body: some View {
         Button {
-            // TODO: - 메모패스 관련 구현
+            pathModel.paths.append(.memoView(isCreateMode: false, memo: memo))
         } label: {
             VStack(spacing: 10) {
                 HStack {
@@ -188,7 +188,7 @@ private struct WirteMemoBtnView: View {
                 Spacer()
                 
                 Button {
-                    // TODO: - 메모 뷰 구현 후에 구현 필요
+                    pathModel.paths.append(.memoView(isCreateMode: true, memo: nil))
                 } label: {
                     Image("writeBtn")
                 }
